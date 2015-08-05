@@ -5,8 +5,8 @@ Pod::Spec.new do |spec|
 	spec.homepage   = 'https://github.com/enuola/BaseLibrary.git'
 	spec.license	= { :type => 'MIT' }
 	spec.authors	= { 'enuola' => 'enuola@126.com' }
-	spec.platform   = :ios, "7.0"
-	spec.ios.deployment_target = "7.0"
+	spec.platform   = :ios, "6.0"
+	spec.ios.deployment_target = "6.0"
 
 	spec.source       = { :git => 'https://github.com/enuola/BaseLibrary.git',:tag => "1.0.0"}
 	spec.source_files = 'BaseLibrary/BaseLibrary/Class/**/*.{h,m,mm}'
@@ -14,9 +14,7 @@ Pod::Spec.new do |spec|
 
 	spec.frameworks   =	'UIKit', 'Foundation'
 	spec.requires_arc = true
-	spec.libraries    = 'z', 'System'
-	spec.requires_arc = true
-	spec.prefix_header_file = "BaseLibrary/BaseLibrary/BaseLibrary-Prefix.pch"
+	#spec.prefix_header_file = "BaseLibrary/BaseLibrary/BaseLibrary-Prefix.pch"
 
 	#spec.dependency 'MGJiPhoneSDK', '~> 0.6.0'
 	#spec.dependency 'MGJH5WebContainer', '~> 0.7.0'
