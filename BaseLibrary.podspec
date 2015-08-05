@@ -4,12 +4,12 @@ Pod::Spec.new do |spec|
 	spec.summary	= 'pay function in iOS project for enuola'
 	spec.homepage   = 'https://github.com/enuola/BaseLibrary.git'
 	spec.license	= { :type => 'MIT' }
-	spec.authors	= { 'ENUOLA' => 'enuola@126.com' }
+	spec.authors	= { 'enuola' => 'enuola@126.com' }
 	spec.platform   = :ios, "7.0"
 	spec.ios.deployment_target = "7.0"
 
 	spec.source       = { :git => 'https://github.com/enuola/BaseLibrary.git',:tag => "1.0.0"}
-	spec.source_files = 'BaseLibrary/BaseLibrary/**/*.{h,m,mm}'
+	spec.source_files = 'BaseLibrary/BaseLibrary/Class/**/*.{h,m,mm}'
 	spec.resources 	  = 'Assets'
 
 	spec.frameworks   =	'UIKit', 'Foundation'
