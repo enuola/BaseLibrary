@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 	spec.source       = { :git => 'https://github.com/enuola/BaseLibrary.git',:tag => "1.0.0"}
 	spec.source_files = 'BaseLibrary/BaseLibrary/Class/**/*.{h,m,mm}'
-	spec.resources 	  = 'Assets'
+	#spec.resources 	  = 'Assets'
 
 	spec.frameworks   =	'UIKit', 'Foundation'
 	spec.requires_arc = true
